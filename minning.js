@@ -15,7 +15,7 @@ let five = 0,
   ten = 0,
   sixtieth = 0;
 
-fs.createReadStream("./megasena.csv")
+fs.createReadStream("./csv/megasena.csv")
   .pipe(csv())
   .on("data", (row) => {
     c1.push(row.c1);

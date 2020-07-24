@@ -1,7 +1,7 @@
 import pandas as pd
 import csv
 
-megasena = pd.read_csv('./megasena.csv')
+megasena = pd.read_csv('./csv/megasena.csv')
 
 c1 = megasena["c1"].to_list()
 c2 = megasena["c2"].to_list()
